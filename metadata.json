@@ -1,0 +1,6 @@
+{
+  "name": "Polymarket Liquidity Scanner",
+  "description": "An MVP analytical scanner for Polymarket liquidity, featuring real-time caching simulation, detailed bid-ask orderbooks, and direct email pre-orders.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
