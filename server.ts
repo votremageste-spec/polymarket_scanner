@@ -1,12 +1,11 @@
 import express, { Request, Response, NextFunction } from 'express';
 import path from 'path';
 import fs from 'fs';
-import { fileURLToPath } from 'url';
 import { createServer as createViteServer } from 'vite';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 
-const __filename = fileURLToPath(import.meta.url);
+const __filename = process.argv[1];
 const __dirname = path.dirname(__filename);
 
 const PORT = 3000;
